@@ -1,4 +1,4 @@
-package Ejercicio2;
+package Ejercicio3;
 
 public class Articulo {
     private int codarticulo,stock;
