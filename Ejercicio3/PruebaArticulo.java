@@ -7,13 +7,13 @@ public class PruebaArticulo {
         articulos=new Articulo[narticulos];
     }
 
-    boolean almacena(Articulo a1){
+    void almacena(Articulo a1){
         for (int i = 0; i < articulos.length; i++) {
             if (articulos[i]==null) {
                 articulos[i]=a1;
-                return true;
+                System.out.println("True");
             }
         }
-        return false;
+        
     }
 }
